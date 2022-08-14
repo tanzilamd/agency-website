@@ -12,7 +12,10 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #11245A;
-
+}
+.title-sm {
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 a {
@@ -87,4 +90,27 @@ section {
 .btn-brand:hover {
     background-color: #ce2f6e;
     color: #fff;
+}
+
+/* services */
+.section-intro {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-intro .hline {
+    width: 70px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.116);
+    margin: 16px auto 0 auto;
+}
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: #E93B81;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
 }
